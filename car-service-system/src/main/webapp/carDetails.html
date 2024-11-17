@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <style>
+        body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(126, 176, 223);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+
+  div {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+      input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+<form action="/car-service-system/CarDetails">
+<table>
+<tr>
+<td>Car model</td>
+<td><input type="text" name="carModel"></td>
+</tr>
+<tr>
+<td>Car Type</td>
+<td><input type="text" name="carType"></td>
+</tr>
+<tr>
+<td>Car Registration Number</td>
+<td><input type="text" name="carRegistrationNumber"></td>
+</tr>
+<tr>
+<td><input type="submit" value=" Add Car Details"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
